@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sinema Bilet Rezervasyonu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="curtain"></div>
+      <div class="sit-container">
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+          <div class="sit"></div>
+        </div>
+      </div>
+      <div class="movie-select">
+        <select id="movie" onchange="loadSits()">
+          <option value="default" disabled>Lütfen bir film seçiniz.</option>
+          <option value="film1">Film 1</option>
+          <option value="film2">Film 2</option>
+          <option value="film3">Film 3</option>
+        </select>
+      </div>
+      <div class="sit-information">
+        <div class="row">
+          <div class="sit selected"></div>
+          Seçili
+        </div>
+        <div class="row">
+          <div class="sit"></div>
+          Boş
+        </div>
+        <div class="row">
+          <div class="sit reserved"></div>
+          Dolu
+        </div>
+      </div>
+
+      <div class="total">
+        
+      </div>
+      <div class="buy">
+        <button id="buy">Satın Al</button>
+        <button id="reset">Sıfırla</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
